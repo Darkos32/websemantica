@@ -1,0 +1,34 @@
+@prefix :       <http://example.com/recurso/agencia/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <schema.org/> .
+@prefix tmorg:  <http://w3id.org/transmodel/organisation#> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+:20001  rdf:type        dct:Identifier , tmorg:Operator ;
+        tmorg:language  "pt" ;
+        schema:name     "MOBI-Rio"@pt ;
+        schema:url      "http://www.mobi-rio.rio.br/" .
+
+:22004  rdf:type        dct:Identifier , tmorg:Operator ;
+        tmorg:language  "pt" ;
+        schema:name     "Transcarioca"@pt ;
+        schema:url      "http://www.rioonibus.com/" .
+
+:22002  rdf:type        dct:Identifier , tmorg:Operator ;
+        tmorg:language  "pt" ;
+        schema:name     "Intersul"@pt ;
+        schema:url      "http://www.rioonibus.com/" .
+
+:22005  rdf:type        dct:Identifier , tmorg:Operator ;
+        tmorg:language  "pt" ;
+        schema:name     "Santa Cruz"@pt ;
+        schema:url      "http://www.rioonibus.com/" .
+
+:22003  rdf:type        dct:Identifier , tmorg:Operator ;
+        tmorg:language  "pt" ;
+        schema:name     "Internorte"@pt ;
+        schema:url      "http://www.rioonibus.com/" .

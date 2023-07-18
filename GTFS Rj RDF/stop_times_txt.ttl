@@ -1,0 +1,55 @@
+@prefix :          <http://localhost:3333/> .
+@prefix exparada:  <http://example.com/recurso/parada/> .
+@prefix exviagem:  <http://example.com/recurso/viagem/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tmjourney: <http://w3id.org/transmodel/journeys#> .
+@prefix vcard:     <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+
+exviagem:12fcab63-d824-409b-8f8e-a88cc50685d7
+        tmjourney:arrivalTime    "00:04:35" ;
+        tmjourney:departureTime  "00:04:35" ;
+        tmjourney:followsJourneyPattern
+                _:b0 .
+
+_:b0    rdf:type                       tmjourney:JourneyPattern ;
+        tmjourney:journeyPatternMadeUpOf
+                exparada:1005O00012S0 ;
+        tmjourney:journeyPatternPoint  [ rdf:type           tmjourney:Point ;
+                                         tmjourney:aViewOf  exparada:1005O00012S0
+                                       ] .
+
+exparada:1005O00052S0
+        rdf:type  tmjourney:StopPointInJourneyPattern .
+
+exparada:1005O00012S0
+        rdf:type  tmjourney:StopPointInJourneyPattern .
+
+exviagem:0000ac9b-8ea3-4ed8-863a-e1d403af18a3
+        tmjourney:arrivalTime    "00:04:35" , "00:00:00" , "00:02:53" , "00:01:29" ;
+        tmjourney:departureTime  "00:02:53" , "00:04:35" , "00:00:00" , "00:01:29" ;
+        tmjourney:followsJourneyPattern
+                _:b0 ;
+        tmjourney:followsJourneyPattern
+                [ rdf:type                       tmjourney:JourneyPattern ;
+                  tmjourney:journeyPatternMadeUpOf
+                          exparada:1005O00170C0 , exparada:1005O00181C0 ;
+                  tmjourney:journeyPatternPoint  [ rdf:type           tmjourney:Point ;
+                                                   tmjourney:aViewOf  exparada:1005O00170C0
+                                                 ] ;
+                  tmjourney:journeyPatternPoint  [ rdf:type           tmjourney:Point ;
+                                                   tmjourney:aViewOf  exparada:1005O00170C0
+                                                 ]
+                ] ;
+        tmjourney:followsJourneyPattern
+                [ rdf:type  tmjourney:JourneyPattern ] ;
+        tmjourney:followsJourneyPattern
+                [ rdf:type                       tmjourney:JourneyPattern ;
+                  tmjourney:journeyPatternMadeUpOf
+                          exparada:1005O00158S0 ;
+                  tmjourney:journeyPatternPoint  [ rdf:type           tmjourney:Point ;
+                                                   tmjourney:aViewOf  exparada:1005O00158S0
+                                                 ]
+                ] .

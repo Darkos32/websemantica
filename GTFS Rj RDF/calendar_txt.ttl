@@ -1,0 +1,50 @@
+@prefix :             <http://localhost:3333/> .
+@prefix kosdayofweek: <https://w3id.org/transmodel/kos/journeys/day-type/days-of-week/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tmjourney:    <https://w3id.org/transmodel/journeys#> .
+@prefix vcard:        <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+
+:S_OBRA_002  rdf:type  tmjourney:DayType .
+
+:D_OBRA_003  rdf:type  tmjourney:DayType .
+
+:U_REG  rdf:type  tmjourney:DayType .
+
+:D_DESAT_OBRA_003  rdf:type  tmjourney:DayType .
+
+:S_DESAT_OBRA_001  rdf:type  tmjourney:DayType .
+
+:S_OBRA_001  rdf:type  tmjourney:DayType .
+
+:D_OBRA_002  rdf:type  tmjourney:DayType .
+
+:D_DESAT_OBRA_002  rdf:type  tmjourney:DayType .
+
+:D_OBRA_001  rdf:type  tmjourney:DayType .
+
+:D_DESAT_OBRA_001  rdf:type  tmjourney:DayType .
+
+:U_OBRA_003  rdf:type  tmjourney:DayType .
+
+:U_DESAT_OBRA_003  rdf:type  tmjourney:DayType .
+
+:S_REG  rdf:type  tmjourney:DayType .
+
+:U_OBRA_002  rdf:type  tmjourney:DayType .
+
+:D_REG  rdf:type  tmjourney:DayType .
+
+:U_DESAT_OBRA_002  rdf:type  tmjourney:DayType .
+
+:S_DESAT_OBRA_003  rdf:type  tmjourney:DayType .
+
+:U_OBRA_001  rdf:type  tmjourney:DayType .
+
+:S_OBRA_003  rdf:type  tmjourney:DayType .
+
+:U_DESAT_OBRA_001  rdf:type  tmjourney:DayType .
+
+:S_DESAT_OBRA_002  rdf:type  tmjourney:DayType .

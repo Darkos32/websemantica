@@ -1,0 +1,3680 @@
+@prefix :            <http://example.com/recurso/linha/> .
+@prefix dct:         <http://purl.org/dc/terms/> .
+@prefix esautob:     <http://vocab.ciudadesabiertas.es/def/transporte/autobus#> .
+@prefix exagency:    <http://example.com/recurso/agencia/> .
+@prefix kosallmodes: <https://w3id.org/transmodel/kos/commons/all-modes/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:      <http://www.schema.org/> .
+@prefix tmcommons:   <https://w3id.org/transmodel/commons#> .
+@prefix tmjourney:   <https://w3id.org/transmodel/journeys#> .
+@prefix tmorg:       <http://www.w3.org/ns/org#> .
+@prefix vcard:       <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+:O0557AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio das Pedras - Copacabana" ;
+        tmcommons:shortName     "557" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+exagency:22003  tmorg:operating  :O0384AAV0A , :O0621AAA0A , :O0945AAA0A , :O0669AAA0A , :O0628AAA0A , :O0687AAA0A , :O0685AAVAA , :O0669AAV0A , :O0917AAV0A , :O0679AAA0A , :O0665AAVBA , :O0616AAA0A , :O0639AAA0A , :O0249AAA0A , :O0483AAPBA , :O0492AAA0A , :O0265AAA0A , :O0296AAA0A , :O0951AAA0A , :O0325AAA0A , :O0925AAA0A , :O0630AAA0A , :E2343AAA0A , :O0622AAA0A , :O0483AAPAA , :O0497AAA0A , :O0922AAA0A , :O0663AAA0A , :O0908AAA0A , :O0485AAP0A , :O0908AAV0A , :O0629AAA0A , :O0329AAA0A , :O0634AAA0A , :O0324AAA0A , :O0355AAA0A , :O0404AAP0A , :O0313AAA0A , :O0486AAA0A , :O0350AAA0A , :E2344AAA0A , :O0778AAA0A , :O0625AAA0A , :O0321AAA0A , :O0312AAA0A , :O0606AAA0A , :O0036CAA0A , :O0335AAA0A , :O0779AAA0A , :O0483AAA0A , :O0919AAA0A , :O0455AAA0A , :O0901AAA0A , :O0484AAA0A , :O0910AAA0A , :O0905AAA0A , :O0483AAN0A , :O0385AAA0A , :O0399AAA0A , :O0920AAA0A , :E2305AAA0A , :O0685AAA0A , :O0950AAA0A , :O0623AAA0A , :O0326AAA0A , :O0239AAA0A , :O0627AAA0A , :O0238AAA0A , :O0913AAA0A , :O0721AAA0A , :O0685AAVBA , :O0362AAA0A , :O0665AAA0A , :O0650AAA0A , :O0922AAV0A , :O0928AAA0A , :O0915AAA0A , :O0485AAA0A , :O0457AAA0A , :O0328AAA0A , :O0638AAA0A , :O0386AAA0A , :O0498AAA0A , :O0624AAA0A , :O0606AAV0A , :O0946AAA0A , :O0378AAA0A , :E2342AAA0A , :O0232AAA0A , :O0665AAVAA , :O0327AAA0A , :O0688AAA0A , :O0298AAA0A , :O0292AAA0A , :O0349AAA0A , :O0779AAV0A , :O0680AAA0A , :O0265AAP0A , :O0311AAA0A , :O0906AAA0A , :O0793AAA0A , :O0254AAA0A , :O0483AAV0A , :O0696AAA0A , :4e71 , :O0247AAA0A , :O0384AAA0A , :O0277AAA0A , :O0711AAA0A , :O0917AAA0A , :O0323AAA0A , :O0342AAA0A .
+
+:E2342AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bananal - Castelo" ;
+        tmcommons:shortName     "2342" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0691AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Cidade de Deus" ;
+        tmcommons:shortName     "691" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0476AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Leblon" ;
+        tmcommons:shortName     "476" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:20000121130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Pingo d'Água - Terminal Alvorada" ;
+        tmcommons:shortName     "12" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0606AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Engenho de Dentro - Rodoviária" ;
+        tmcommons:shortName     "SV606" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0696AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Praia do Dendê" ;
+        tmcommons:shortName     "696" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:goy7   rdf:type                esautob:Linea ;
+        dct:description         "LECD53"@pt ;
+        schema:name             "Rodoviária - Castelo" ;
+        tmcommons:shortName     "012" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0553AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Integrada 8"@pt ;
+        schema:name             "Rio Sul - Recreio dos Bandeirantes" ;
+        tmcommons:shortName     "553" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0928AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Marechal Hermes - Bonsucesso" ;
+        tmcommons:shortName     "928" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0300AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Sulacap - Candelária" ;
+        tmcommons:shortName     "300" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0362AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Honório Gurgel - Castelo" ;
+        tmcommons:shortName     "362" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0472AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Triagem - Leme" ;
+        tmcommons:shortName     "472" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0847AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio da Prata - Campo Grande" ;
+        tmcommons:shortName     "847" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0692AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Terminal Alvorada" ;
+        tmcommons:shortName     "692" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:20000301140  rdf:type          esautob:Linea ;
+        dct:description         "Semidireto"@pt ;
+        schema:name             "Vicente de Carvalho - Terminal Alvorada" ;
+        tmcommons:shortName     "31" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0669AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Méier" ;
+        tmcommons:shortName     "SV669" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0709AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cascadura - Amarelinho" ;
+        tmcommons:shortName     "709" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0779AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Madureira" ;
+        tmcommons:shortName     "SV779" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0819AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim Bangu - Bangu" ;
+        tmcommons:shortName     "819" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:20000531130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Terminal Sulacap - Terminal Alvorada" ;
+        tmcommons:shortName     "53" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "6AA84F" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0843AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Boa Esperança - Campo Grande" ;
+        tmcommons:shortName     "843" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0628AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha - Nova América" ;
+        tmcommons:shortName     "628" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0953AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Tanque - Cidade de Deus" ;
+        tmcommons:shortName     "953" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0363AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Valqueire - Candelária" ;
+        tmcommons:shortName     "363" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0473AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "São Januário - Lido" ;
+        tmcommons:shortName     "473" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0848AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bairro Monte Santo - Campo Grande" ;
+        tmcommons:shortName     "848" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0110AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rodoviária - Jardim de Alah" ;
+        tmcommons:shortName     "110" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0810AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Taquara - Pontal" ;
+        tmcommons:shortName     "810" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0220AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Usina - Candelária" ;
+        tmcommons:shortName     "220" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:E2308AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cosmos - Carioca" ;
+        tmcommons:shortName     "2308" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0920AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Bonsucesso" ;
+        tmcommons:shortName     "920" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:20000131130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Mato Alto - Terminal Alvorada" ;
+        tmcommons:shortName     "13" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0397AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Candelária" ;
+        tmcommons:shortName     "397" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0624AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Mariópolis - Praça da Bandeira" ;
+        tmcommons:shortName     "624" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2337AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Cruz - Castelo" ;
+        tmcommons:shortName     "2337" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0409AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Saens Peña - Horto" ;
+        tmcommons:shortName     "409" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0844AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim Oceânico - Barrinha" ;
+        tmcommons:shortName     "844" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0042CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD42"@pt ;
+        schema:name             "Merck - Joatinga" ;
+        tmcommons:shortName     "990" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0629AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Irajá - Saens Peña" ;
+        tmcommons:shortName     "629" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0954AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Taquara - Recreio dos Bandeirantes" ;
+        tmcommons:shortName     "954" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0548AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Integrada 3"@pt ;
+        schema:name             "Metrô Botafogo - Terminal Alvorada" ;
+        tmcommons:shortName     "548" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:E2309AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Urucânia - Carioca" ;
+        tmcommons:shortName     "2309" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0878AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Tanque - Barra da Tijuca" ;
+        tmcommons:shortName     "878" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0840AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "São Fernando - Campo Grande" ;
+        tmcommons:shortName     "840" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0625AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Olaria - Saens Peña" ;
+        tmcommons:shortName     "625" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0415AAN0A  rdf:type           esautob:Linea ;
+        schema:name             "Usina - Leblon" ;
+        tmcommons:shortName     "SN415" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0687AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Méier" ;
+        tmcommons:shortName     "687" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0950AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vicente de Carvalho - Vista Alegre" ;
+        tmcommons:shortName     "950" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2338AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Castelo" ;
+        tmcommons:shortName     "2338" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0324AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Ribeira - Candelária" ;
+        tmcommons:shortName     "324" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0043CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD43"@pt ;
+        schema:name             "Gardênia Azul - Pechincha" ;
+        tmcommons:shortName     "987" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0919AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Bonsucesso" ;
+        tmcommons:shortName     "919" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0329AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bancários - Candelária" ;
+        tmcommons:shortName     "329" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2305AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim América - Castelo" ;
+        tmcommons:shortName     "2305" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0439AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Isabel - Leblon" ;
+        tmcommons:shortName     "439" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:E2114AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Freguesia - Castelo" ;
+        tmcommons:shortName     "2114" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0621AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha - Saens Peña" ;
+        tmcommons:shortName     "621" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2334AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Castelo" ;
+        tmcommons:shortName     "2334" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0793AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Sulacap" ;
+        tmcommons:shortName     "793" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0105AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Troncal 5"@pt ;
+        schema:name             "Alto Gávea - Central" ;
+        tmcommons:shortName     "105" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0766AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Três Rios - Madureira" ;
+        tmcommons:shortName     "SP766" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:20000141130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Santa Eugênia (Paciência) - Salvador Allende" ;
+        tmcommons:shortName     "14" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0B5394" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0688AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Pavuna" ;
+        tmcommons:shortName     "688" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2339AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Castelo" ;
+        tmcommons:shortName     "2339" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0915AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bonsucesso - Aeroporto Internacional" ;
+        tmcommons:shortName     "915" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0325AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Ribeira - Castelo" ;
+        tmcommons:shortName     "325" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0650AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Marechal Hermes - Engenho Novo" ;
+        tmcommons:shortName     "650" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0435AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Grajaú - Gávea" ;
+        tmcommons:shortName     "435" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0497AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha - Largo do Machado" ;
+        tmcommons:shortName     "497" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0870AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Sepetiba - Santa Cruz" ;
+        tmcommons:shortName     "870" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:E2110AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Gardênia Azul - Castelo" ;
+        tmcommons:shortName     "2110" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0249AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Água Santa - Carioca" ;
+        tmcommons:shortName     "249" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0474AAN0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Copacabana" ;
+        tmcommons:shortName     "SN474" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+exagency:22005  tmorg:operating  :O0855AAA0A , :O0884AAA0A , :E2332AAA0A , :O0918AAA0A , :O0885AAA0A , :E2336AAA0A , :E2308AAA0A , :O0369AAA0A , :E2801AAA0A , :O0804AAA0A , :O0825AAA0A , :O0868AAA0A , :O0846AAA0A , :O0771AAA0A , :O0383AAA0A , :O0835AAA0A , :E2338AAA0A , :O0852AAA0A , :E2383AAA0A , :O0836AAA0A , :O0866AAA0A , :E2337AAA0A , :O0801AAA0A , :E2334AAA0A , :O0867AAA0A , :O0852AAP0A , :O0388AAA0A , :O0819AAA0A , :O0395AAA0A , :O0809AAA0A , :E2381AAA0A , :O0752AAA0A , :O0756AAA0A , :O0869AAA0A , :O0803AAP0A , :O0051CAA0A , :O0812AAA0A , :757 , :O0745AAA0A , :O0892AAA0A , :O0822AAA0A , :O0840AAA0A , :O0044CAA0A , :O0838AAA0A , :E2335AAA0A , :O0843AAA0A , :E2307AAA0A , :O0794AAA0A , :O0759AAA0A , :O0849AAA0A , :O0870AAA0A , :O0045CAA0A , :E2804AAA0A , :O0786AAA0A , :O0790AAA0A , :O0397AAA0A , :E2310AAA0A , :O0893AAA0A , :O0821AAA0A , :O0851AAA0A , :O0802AAA0A , :O0830AAA0A , :O0848AAA0A , :O0853AAA0A , :O0936AAA0A , :O0790AAV0A , :E2803AAA0A , :O0845AAA0A , :O0746AAA0A , :O0393AAA0A , :O0753AAA0A , :E2339AAA0A , :O0864AAA0A , :O0731AAA0A , :O0926AAA0A , :O0752AAP0A , :O0842AAA0A , :O0741AAA0A , :O0833AAA0A , :E2309AAA0A , :E2380AAA0A , :O0379AAA0A , :O0389AAA0A , :O0394AAV0A , :O0853AAV0A , :O0883AAA0A , :O0777AAV0A , :O0866AAV0A , :E2303AAA0A , :O0743AAA0A , :O0803AAA0A , :O0834AAA0A , :O0770AAA0A , :E2802AAA0A , :O0895AAA0A , :O0300AAA0A , :O0871AAA0A , :O0897AAA0A , :O0801AAP0A , :O0847AAA0A , :O0837AAA0A .
+
+:O0321AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bancários - Castelo" ;
+        tmcommons:shortName     "321" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0794AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Cascadura" ;
+        tmcommons:shortName     "794" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0006AAN0A  rdf:type           esautob:Linea ;
+        schema:name             "Silvestre - Castelo" ;
+        tmcommons:shortName     "SN006" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0326AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bancários - Candelária" ;
+        tmcommons:shortName     "326" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0388AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Cruz - Candelária" ;
+        tmcommons:shortName     "388" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0350AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Irajá - Passeio" ;
+        tmcommons:shortName     "350" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0498AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Circular da Penha - Largo do Machado" ;
+        tmcommons:shortName     "498" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0460AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "São Cristóvão - Leblon" ;
+        tmcommons:shortName     "460" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:E2111AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Praça Seca - Castelo" ;
+        tmcommons:shortName     "2111" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0835AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Largo do Correia - Campo Grande" ;
+        tmcommons:shortName     "835" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0945AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Fundão" ;
+        tmcommons:shortName     "945" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0355AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Madureira - Praça Tiradentes" ;
+        tmcommons:shortName     "355" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0363AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Valqueire - Candelária" ;
+        tmcommons:shortName     "SV363" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0680AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha (IAPI) - Méier" ;
+        tmcommons:shortName     "680" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0790AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Cascadura" ;
+        tmcommons:shortName     "790" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0038CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD38"@pt ;
+        schema:name             "Terminal Alvorada - Saens Peña" ;
+        tmcommons:shortName     "645" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0802AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Campo Grande" ;
+        tmcommons:shortName     "802" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0384AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Passeio" ;
+        tmcommons:shortName     "384" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0759AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cesarão - Coelho Neto" ;
+        tmcommons:shortName     "759" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0869AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Margarida - Campo Grande" ;
+        tmcommons:shortName     "869" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0831AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Colônia - Taquara" ;
+        tmcommons:shortName     "831" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0389AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Aliança - Candelária" ;
+        tmcommons:shortName     "389" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0616AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Del Castilho - Fundão" ;
+        tmcommons:shortName     "616" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0461AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "São Cristóvão - Ipanema" ;
+        tmcommons:shortName     "461" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0836AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Caboclos - Campo Grande" ;
+        tmcommons:shortName     "836" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0946AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Engenho da Rainha" ;
+        tmcommons:shortName     "946" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0380AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Curicica - Candelária" ;
+        tmcommons:shortName     "380" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0039CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD39"@pt ;
+        schema:name             "Piabas - Vargem Grande" ;
+        tmcommons:shortName     "817" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0803AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Senador Camará - Taquara" ;
+        tmcommons:shortName     "803" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0865AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pau da Fome - Taquara" ;
+        tmcommons:shortName     "865" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0275AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Candelária" ;
+        tmcommons:shortName     "275" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0385AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Village Pavuna - Passeio" ;
+        tmcommons:shortName     "385" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0878AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Tanque - Barra da Tijuca" ;
+        tmcommons:shortName     "SV878" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0507AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Silvestre - Largo do Machado" ;
+        tmcommons:shortName     "507" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0805AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Terminal Alvorada - Passarela da Barra" ;
+        tmcommons:shortName     "SP805" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:757    rdf:type                esautob:Linea ;
+        dct:description         "757"@pt ;
+        schema:name             "Sepetiba - Coelho Neto" ;
+        tmcommons:shortName     "LECD60" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0679AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Grotão - Méier" ;
+        tmcommons:shortName     "679" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0483AAPBA  rdf:type           esautob:Linea ;
+        schema:name             "Parque União - General Osório" ;
+        tmcommons:shortName     "SPB483" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0426AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Usina - Jardim de Alah" ;
+        tmcommons:shortName     "426" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0861AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio das Pedras - Curicica" ;
+        tmcommons:shortName     "861" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:SE03   rdf:type                esautob:Linea ;
+        schema:name             "Pingo d'Água - Terminal Alvorada" ;
+        tmcommons:shortName     "SE03" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4a86e8" ;
+                                  tmcommons:textColour  "FFFFFF"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0756AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Cruz - Coelho Neto" ;
+        tmcommons:shortName     "756" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:5myt   rdf:type                esautob:Linea ;
+        dct:description         "Eventual"@pt ;
+        schema:name             "Mato Alto - Terminal Alvorada" ;
+        tmcommons:shortName     "SE02" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4a86e8" ;
+                                  tmcommons:textColour  "FFFFFF"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0866AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Pedra de Guaratiba" ;
+        tmcommons:shortName     "866" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0613AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vargem Grande - Del Castilho" ;
+        tmcommons:shortName     "613" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0801AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Terminal Sulacap" ;
+        tmcommons:shortName     "SP801" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:20000101130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Santa Cruz - Terminal Alvorada" ;
+        tmcommons:shortName     "10" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0422AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Grajaú - Cosme Velho" ;
+        tmcommons:shortName     "422" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0895AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Serrinha - Campo Grande" ;
+        tmcommons:shortName     "895" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0752AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Conjunto dos Palmares - Coelho Neto" ;
+        tmcommons:shortName     "752" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0862AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio das Pedras - Barra da Tijuca" ;
+        tmcommons:shortName     "862" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0313AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha (Grotão) - Praça Tiradentes" ;
+        tmcommons:shortName     "313" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:20000201130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Santa Cruz - Salvador Allende" ;
+        tmcommons:shortName     "20" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0786AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Marechal Hermes" ;
+        tmcommons:shortName     "786" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0485AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Fundão - General Osório" ;
+        tmcommons:shortName     "485" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0908AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bonsucesso - Guadalupe" ;
+        tmcommons:shortName     "908" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0232AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Lins - Castelo" ;
+        tmcommons:shortName     "232" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0342AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim América - Castelo" ;
+        tmcommons:shortName     "342" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0315AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila do João - Recreio dos Bandeirantes" ;
+        tmcommons:shortName     "SP315" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:h5vh   rdf:type                esautob:Linea ;
+        dct:description         "LECD52"@pt ;
+        schema:name             "Cascadura - Coelho Neto" ;
+        tmcommons:shortName     "785" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:E2803AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Kennedy - Barra da Tijuca" ;
+        tmcommons:shortName     "2803" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0457AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Abolição - Copacabana" ;
+        tmcommons:shortName     "457" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0384AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Passeio" ;
+        tmcommons:shortName     "SV384" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0486AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Fundão - General Osório" ;
+        tmcommons:shortName     "486" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0608AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Grajaú - Saens Peña" ;
+        tmcommons:shortName     "608" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0343AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim Oceânico - Candelária" ;
+        tmcommons:shortName     "343" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:E2381AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pedra de Guaratiba - Castelo" ;
+        tmcommons:shortName     "2381" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:20000511110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Vila Militar - Terminal Recreio" ;
+        tmcommons:shortName     "51" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "6AA84F" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:E2804AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Barra da Tijuca" ;
+        tmcommons:shortName     "2804" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0238AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Água Santa - Castelo" ;
+        tmcommons:shortName     "238" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0900AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Merck - Downtown" ;
+        tmcommons:shortName     "900" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0014AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Paula Matos - Castelo" ;
+        tmcommons:shortName     "014" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:20000111110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Santa Cruz - Terminal Alvorada" ;
+        tmcommons:shortName     "11" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0296AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Irajá - Castelo" ;
+        tmcommons:shortName     "296" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0685AAVAA  rdf:type           esautob:Linea ;
+        schema:name             "Irajá - Méier" ;
+        tmcommons:shortName     "SVA685" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:20000461130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Penha - Terminal Alvorada" ;
+        tmcommons:shortName     "46" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0829AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Gardênia Azul - Freguesia" ;
+        tmcommons:shortName     "829" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0743AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Terminal Sulacap - Bangu" ;
+        tmcommons:shortName     "743" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:20000171110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Campo Grande - Santa Cruz" ;
+        tmcommons:shortName     "17" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0B5394" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:20000421110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Galeão - Madureira-Manaceia" ;
+        tmcommons:shortName     "42" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0853AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Kennedy - Terminal Mato Alto" ;
+        tmcommons:shortName     "853" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0638AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Marechal Hermes - Saens Peña" ;
+        tmcommons:shortName     "638" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+exagency:22002  tmorg:operating  :O0553AAA0A , :O0538AAA0A , :O0462AAA0A , :O0448AAA0A , :O0415AAN0A , :O0110AAA0A , :O0513AAA0A , :krji , :O0603AAA0A , :O0202AAA0A , :O0474AAV0A , :O0181AAA0A , :O0473AAA0A , :O0112AAA0A , :O0104AAA0A , :O0422AAA0A , :O0433AAA0A , :O0014AAA0A , :O0432AAA0A , :O0554AAA0A , :O0552AAA0A , :O0444AAA0A , :O0037CAA0A , :O0474AAN0A , :goy7 , :O0435AAA0A , :O0007AAA0A , :O0439AAA0A , :O0548AAA0A , :O0583AAA0A , :O0217AAA0A , :O0117AAA0A , :O0460AAA0A , :O0472AAA0A , :O0010AAA0A , :O0133AAA0A , :O0049CAA0A , :O0461AAA0A , :O0107AAA0A , :O0100AAA0A , :O0229AAA0A , :O0507AAA0A , :O0415AAA0A , :O0108AAA0A , :O0201AAA0A , :O0275AAA0A , :O0210AAA0A , :O0006AAN0A , :O0608AAA0A , :O0553AAP0A , :O0410AAA0A , :O0220AAA0A , :O0440AAA0A , :O0476AAA0A , :O0626AAA0A , :O0006AAA0A , :O0539AAA0A , :O0105AAA0A , :O0474AAA0A , :O0416AAA0A , :O0050CAA0A , :O0463AAA0A , :O0409AAA0A , :m9t5 , :O0426AAA0A , :O0558AAA0A , :O0209AAA0A , :O0584AAA0A .
+
+:O0600AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Taquara - Saens Peña" ;
+        tmcommons:shortName     "600" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0010AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bairro de Fátima - Central" ;
+        tmcommons:shortName     "010" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0866AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Cinco Marias - Campo Grande" ;
+        tmcommons:shortName     "SV866" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0292AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Engenho da Rainha - Castelo" ;
+        tmcommons:shortName     "292" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0265AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Marechal Hermes - São Cristóvão" ;
+        tmcommons:shortName     "SP265" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0309AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Terminal Alvorada - Central" ;
+        tmcommons:shortName     "309" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0634AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bananal - Saens Peña" ;
+        tmcommons:shortName     "634" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0613AAPAA  rdf:type           esautob:Linea ;
+        schema:name             "Riocentro - Del Castilho" ;
+        tmcommons:shortName     "SPA613" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0639AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim América - Saens Peña" ;
+        tmcommons:shortName     "639" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0601AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Maria - Saens Peña" ;
+        tmcommons:shortName     "601" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0338AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Taquara - Candelária" ;
+        tmcommons:shortName     "338" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0663AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Fundão" ;
+        tmcommons:shortName     "663" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0711AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rocha Miranda - Rio Comprido" ;
+        tmcommons:shortName     "711" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0448AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Furnas - São Conrado" ;
+        tmcommons:shortName     "448" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0558AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Integrada 6"@pt ;
+        schema:name             "Copacabana - Cidade de Deus" ;
+        tmcommons:shortName     "558" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0410AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Saens Peña - Gávea" ;
+        tmcommons:shortName     "410" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0883AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Estação Mato Alto" ;
+        tmcommons:shortName     "883" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0630AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha (IAPI) - Saens Peña" ;
+        tmcommons:shortName     "630" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0778AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Cascadura" ;
+        tmcommons:shortName     "778" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2018AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Aeroporto Internacional - Terminal Alvorada" ;
+        tmcommons:shortName     "2018" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:E2343AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Ribeira - Castelo" ;
+        tmcommons:shortName     "2343" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0415AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Usina - Leblon" ;
+        tmcommons:shortName     "415" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0908AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Guadalupe - Bonsucesso" ;
+        tmcommons:shortName     "SV908" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2310AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Candelária" ;
+        tmcommons:shortName     "2310" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0444AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Maré - Copacabana" ;
+        tmcommons:shortName     "444" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0229AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Usina - Castelo" ;
+        tmcommons:shortName     "229" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0554AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Integrada 9"@pt ;
+        schema:name             "Rio Sul - Piabas" ;
+        tmcommons:shortName     "554" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0852AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Pedra de Guaratiba" ;
+        tmcommons:shortName     "SP852" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0301AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rodoviária - Barra da Tijuca" ;
+        tmcommons:shortName     "301" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0774AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Madureira - Jardim América" ;
+        tmcommons:shortName     "774" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0884AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Sepetiba - Campo Grande" ;
+        tmcommons:shortName     "884" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0583AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cosme Velho - Leblon" ;
+        tmcommons:shortName     "583" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0306AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Praça Seca - Castelo" ;
+        tmcommons:shortName     "306" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0483AAN0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha - General Osório" ;
+        tmcommons:shortName     "SN483" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0368AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Riocentro - Candelária" ;
+        tmcommons:shortName     "368" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0693AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Terminal Alvorada" ;
+        tmcommons:shortName     "693" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:E2344AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bancários - Castelo" ;
+        tmcommons:shortName     "2344" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0440AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Caju - Copacabana" ;
+        tmcommons:shortName     "440" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0550AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cidade de Deus - Gávea" ;
+        tmcommons:shortName     "550" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0925AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Aeroporto Internacional - Bancários" ;
+        tmcommons:shortName     "925" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0335AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cordovil - Tiradentes" ;
+        tmcommons:shortName     "335" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0770AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Coelho Neto" ;
+        tmcommons:shortName     "770" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0555AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio das Pedras - Gávea" ;
+        tmcommons:shortName     "555" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0254AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Madureira - Candelária" ;
+        tmcommons:shortName     "254" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0302AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rodoviária - Terminal Alvorada" ;
+        tmcommons:shortName     "302" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0474AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jacaré - Copacabana" ;
+        tmcommons:shortName     "474" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0849AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Base Aérea de Santa Cruz - Campo Grande" ;
+        tmcommons:shortName     "849" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0584AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cosme Velho - Leblon" ;
+        tmcommons:shortName     "584" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0369AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Candelária" ;
+        tmcommons:shortName     "369" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0006AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Silvestre - Castelo" ;
+        tmcommons:shortName     "006" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0393AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Candelária" ;
+        tmcommons:shortName     "393" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:30j5   rdf:type                esautob:Linea ;
+        schema:name             "Méier - Terminal Alvorada" ;
+        tmcommons:shortName     "SV692" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0926AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Senador Camará - Penha" ;
+        tmcommons:shortName     "926" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:20000381110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Fundão - Terminal Alvorada" ;
+        tmcommons:shortName     "38" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0845AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cantagalo - Campo Grande" ;
+        tmcommons:shortName     "845" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0853AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Kennedy - Estação BRT Mato Alto" ;
+        tmcommons:shortName     "SV853" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0955AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Maré - Terminal Alvorada" ;
+        tmcommons:shortName     "955" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0553AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio Sul - Barra Sul" ;
+        tmcommons:shortName     "SP553" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0112AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rodoviária - Alto Gávea" ;
+        tmcommons:shortName     "112" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0812AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Carobinha - Bangu" ;
+        tmcommons:shortName     "812" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0922AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Tubiacanga - RIOgaleão" ;
+        tmcommons:shortName     "922" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0777AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Padre Miguel - Madureira" ;
+        tmcommons:shortName     "SV777" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0692AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Freguesia - Méier" ;
+        tmcommons:shortName     "SP692" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0731AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Marechal Hermes" ;
+        tmcommons:shortName     "731" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0626AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Saens Peña - Muda" ;
+        tmcommons:shortName     "626" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0399AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Passeio" ;
+        tmcommons:shortName     "399" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0951AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vicente de Carvalho - Vista Alegre" ;
+        tmcommons:shortName     "951" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0361AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Recreio dos Bandeirantes - Castelo" ;
+        tmcommons:shortName     "361" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0846AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio da Prata - Campo Grande" ;
+        tmcommons:shortName     "846" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0044CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD44"@pt ;
+        schema:name             "Salim - Campo Grande" ;
+        tmcommons:shortName     "808" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0390AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Curicica - Candelária" ;
+        tmcommons:shortName     "390" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+exagency:22004  tmorg:operating  :O0614AAA0A , :O0652AAA0A , :O0380AAA0A , :O0338AAA0A , :O0954AAA0A , :O0368AAA0A , :O0315AAP0A , :O0932AAA0A , :O0041CAA0A , :O0610AAA0A , :O0878AAA0A , :E2111AAA0A , :O0692AAP0A , :O0880AAA0A , :O0875AAA0A , :O0775AAA0A , :O0831AAA0A , :O0302AAA0A , :O0343AAP0A , :O0940AAA0A , :O0043CAA0A , :O0810AAA0A , :O0678AAA0A , :O0555AAA0A , :O0361AAA0A , :O0550FLA0A , :O0600AAA0A , :h5vh , :O0636AAA0A , :O0844AAA0A , :O0309AAA0A , :E2110AAA0A , :O0557AAA0A , :O0390AAA0A , :O0042CAA0A , :O0691AAA0A , :O0709AAA0A , :O0038CAA0A , :O0565AAA0A , :O0878AAV0A , :O0712AAA0A , :O0309AAP0A , :O0766AAP0A , :O0955AAA0A , :O0900AAA0A , :O0343AAA0A , :O0301AAA0A , :O0352AAA0A , :o1jo , :O0783AAA0A , :O0865AAA0A , :O0550AAPAA , :O0953AAA0A , :O0363AAA0A , :O0805AAA0A , :E2345AAA0A , :O0693AAA0A , :O0766AAA0A , :O0341AAA0A , :O0613AAA0A , :O0348AAA0A , :O0353AAA0A , :30j5 , :ctbr , :E2112AAA0A , :O0550AAA0A , :O0810AAP0A , :O0601AAA0A , :O0607AAA0A , :O0774AAA0A , :E2345AAVBA , :E2018AAA0A , :O0601AAP0A , :O0039CAA0A , :O0040CAA0A , :O0651AAA0A , :mc70 , :O0829AAA0A , :O0859AAA0A , :O0805AAP0A , :O0861AAA0A , :O0363AAV0A , :O0611AAA0A , :O0306AAA0A , :E2114AAA0A , :O0692AAA0A , :O0774AAV0A , :O0862AAA0A , :O0371AAA0A , :O0613AAPAA , :O0315AAA0A , :O0863AAA0A .
+
+:O0049CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD49"@pt ;
+        schema:name             "Gávea (PUC) - Castelo" ;
+        tmcommons:shortName     "157" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0875AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Tanque - Chácara" ;
+        tmcommons:shortName     "875" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0395AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Coqueiros - Tiradentes" ;
+        tmcommons:shortName     "395" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0622AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha - Saens Peña" ;
+        tmcommons:shortName     "622" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0810AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Taquara - Vargem Grande" ;
+        tmcommons:shortName     "SP810" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:E2335AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Cruz - Castelo" ;
+        tmcommons:shortName     "2335" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:20000181130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Recreio Shopping - Jardim Oceânico" ;
+        tmcommons:shortName     "18" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:20000431130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Fundão - Santa Efigênia" ;
+        tmcommons:shortName     "43" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0842AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Paciência - Campo Grande" ;
+        tmcommons:shortName     "842" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0040CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD40"@pt ;
+        schema:name             "Taquara - Terminal Alvorada" ;
+        tmcommons:shortName     "881" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0627AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Inhaúma - Saens Peña" ;
+        tmcommons:shortName     "627" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0404AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Caju - Leblon" ;
+        tmcommons:shortName     "SP404" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0651AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Cascadura" ;
+        tmcommons:shortName     "651" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0045CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD45"@pt ;
+        schema:name             "Barra de Guaratiba - Terminal Recreio" ;
+        tmcommons:shortName     "899" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0871AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Terminal Pingo d'Água - Cesarão" ;
+        tmcommons:shortName     "871" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:E2307AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim 7 de Abril - Carioca" ;
+        tmcommons:shortName     "2307" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0766AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Madureira - Freguesia" ;
+        tmcommons:shortName     "766" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0774AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Madureira - Jardim América" ;
+        tmcommons:shortName     "SV774" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0513AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Urca - Botafogo" ;
+        tmcommons:shortName     "513" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0623AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha - Saens Peña" ;
+        tmcommons:shortName     "623" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2336AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Castelo" ;
+        tmcommons:shortName     "2336" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0685AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Irajá - Méier" ;
+        tmcommons:shortName     "685" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0107AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Central - Urca" ;
+        tmcommons:shortName     "107" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0432AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Isabel - Gávea" ;
+        tmcommons:shortName     "432" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0041CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD41"@pt ;
+        schema:name             "Vila do João - Terminal Alvorada" ;
+        tmcommons:shortName     "957" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0217AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Andaraí - Carioca" ;
+        tmcommons:shortName     "217" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0917AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Realengo - Bonsucesso" ;
+        tmcommons:shortName     "917" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0327AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Ribeira - Castelo" ;
+        tmcommons:shortName     "327" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2303AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cesarão - Carioca" ;
+        tmcommons:shortName     "2303" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0652AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Cascadura" ;
+        tmcommons:shortName     "652" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:E2112AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Taquara - Castelo" ;
+        tmcommons:shortName     "2112" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0550AAPAA  rdf:type           esautob:Linea ;
+        schema:name             "Cidade de Deus - Rocinha" ;
+        tmcommons:shortName     "SPA550" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:E2332AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Castelo" ;
+        tmcommons:shortName     "2332" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0474AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Jacaré - Copacabana" ;
+        tmcommons:shortName     "SV474" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:mc70   rdf:type                esautob:Linea ;
+        dct:description         "961"@pt ;
+        schema:name             "Rio das Pedras - Riocentro" ;
+        tmcommons:shortName     "LECD58" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0913AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Del Castilho - Fundão" ;
+        tmcommons:shortName     "913" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0323AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bananal - Castelo" ;
+        tmcommons:shortName     "323" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0685AAVBA  rdf:type           esautob:Linea ;
+        schema:name             "Irajá - Méier" ;
+        tmcommons:shortName     "SVB685" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0108AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Troncal 6"@pt ;
+        schema:name             "Jardim de Alah - Rodoviária" ;
+        tmcommons:shortName     "108" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0433AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Isabel - Siqueira Campos" ;
+        tmcommons:shortName     "433" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:20000191130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Pingo d'Água - Salvador Allende" ;
+        tmcommons:shortName     "19" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0918AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Bonsucesso" ;
+        tmcommons:shortName     "918" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0328AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bananal - Candelária" ;
+        tmcommons:shortName     "328" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:luwv   rdf:type                esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Vila Militar - Terminal Alvorada" ;
+        tmcommons:shortName     "52" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "6aa84f" ;
+                                  tmcommons:textColour  "FFFFFF"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:krji   rdf:type                esautob:Linea ;
+        dct:description         "LECD55"@pt ;
+        schema:name             "Urca - Botafogo" ;
+        tmcommons:shortName     "518" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0352AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "via Autódromo"@pt ;
+        schema:name             "Riocentro - Candelária" ;
+        tmcommons:shortName     "352" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0462AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "São Cristóvão - Copacabana" ;
+        tmcommons:shortName     "462" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0837AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Conjunto da Marinha" ;
+        tmcommons:shortName     "837" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0247AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Camarista Méier - Passeio" ;
+        tmcommons:shortName     "247" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0104AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Troncal 4"@pt ;
+        schema:name             "São Conrado - Rodoviária" ;
+        tmcommons:shortName     "104" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0804AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Largo do Aarão - Campo Grande" ;
+        tmcommons:shortName     "804" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0665AAVAA  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Saens Peña" ;
+        tmcommons:shortName     "SVA665" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0922AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Tubiacanga - Fundão" ;
+        tmcommons:shortName     "SV922" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0386AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Anchieta - Candelária" ;
+        tmcommons:shortName     "386" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0394AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Kennedy - Tiradentes" ;
+        tmcommons:shortName     "SV394" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0809AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Sagrado Coração - Santa Cruz" ;
+        tmcommons:shortName     "809" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0133AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Largo do Machado - Rodoviária" ;
+        tmcommons:shortName     "133" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0833AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Conjunto Manguariba - Campo Grande" ;
+        tmcommons:shortName     "833" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0353AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Praça Seca - Rodoviária" ;
+        tmcommons:shortName     "353" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:20000501110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Jardim Oceânico - Terminal Centro Olímpico" ;
+        tmcommons:shortName     "50" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "6AA84F" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0463AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "São Cristóvão - Copacabana" ;
+        tmcommons:shortName     "463" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0838AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim Maravilha - Campo Grande" ;
+        tmcommons:shortName     "838" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0036CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD36"@pt ;
+        schema:name             "Mariópolis - Praça da Bandeira" ;
+        tmcommons:shortName     "SV624" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0100AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Troncal 1"@pt ;
+        schema:name             "General Osório - Central" ;
+        tmcommons:shortName     "100" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0210AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Caju - Candelária" ;
+        tmcommons:shortName     "210" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0910AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bananal - Irajá" ;
+        tmcommons:shortName     "910" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0805AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Terminal Alvorada - Jardim Oceânico" ;
+        tmcommons:shortName     "805" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0492AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bancários - Prado Júnior" ;
+        tmcommons:shortName     "492" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0867AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Barra de Guaratiba - Campo Grande" ;
+        tmcommons:shortName     "867" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0277AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rocha Miranda - Candelária" ;
+        tmcommons:shortName     "277" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0614AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Del Castilho - Terminal Alvorada" ;
+        tmcommons:shortName     "614" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0834AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Alhambra" ;
+        tmcommons:shortName     "834" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:ctbr   rdf:type                esautob:Linea ;
+        dct:description         "LECD56"@pt ;
+        schema:name             "Praça Seca - Madureira" ;
+        tmcommons:shortName     "702" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:20000351110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Madureira - Alvorada" ;
+        tmcommons:shortName     "35" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0037CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD37"@pt ;
+        schema:name             "Maré - Leblon" ;
+        tmcommons:shortName     "443" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0753AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "753"@pt ;
+        schema:name             "Santa Cruz - Coelho Neto" ;
+        tmcommons:shortName     "LECD59" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0538AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rocinha - Leme" ;
+        tmcommons:shortName     "538" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0801AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Taquara" ;
+        tmcommons:shortName     "801" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0863AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio das Pedras - Barra da Tijuca" ;
+        tmcommons:shortName     "863" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0383AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Realengo - Praça da República" ;
+        tmcommons:shortName     "383" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0610AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Del Castilho - Tanque" ;
+        tmcommons:shortName     "610" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0868AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Urucânia - Campo Grande" ;
+        tmcommons:shortName     "868" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0790AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Cascadura" ;
+        tmcommons:shortName     "SV790" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0830AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pedregoso - Campo Grande" ;
+        tmcommons:shortName     "830" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0892AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "São Benedito - Santa Cruz" ;
+        tmcommons:shortName     "892" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0940AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Ramos (Praia) - Madureira" ;
+        tmcommons:shortName     "940" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0803AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Senador Camará - Terminal Sulacap" ;
+        tmcommons:shortName     "SP803" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0897AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Paciência - Pingo D'Água" ;
+        tmcommons:shortName     "897" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0209AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Caju - Candelária" ;
+        tmcommons:shortName     "209" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0917AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "Realengo - Bonsucesso" ;
+        tmcommons:shortName     "SV917" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0539AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rocinha - Leme" ;
+        tmcommons:shortName     "539" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0864AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Campo Grande" ;
+        tmcommons:shortName     "864" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0611AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Camorim - Del Castilho" ;
+        tmcommons:shortName     "611" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0348AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Riocentro - Candelária" ;
+        tmcommons:shortName     "348" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0721AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Cruzeiro - Cascadura" ;
+        tmcommons:shortName     "721" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0783AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Marechal Hermes - Praça Seca" ;
+        tmcommons:shortName     "783" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0893AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim Palmares - Campo Grande" ;
+        tmcommons:shortName     "893" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0678AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Vila Valqueire" ;
+        tmcommons:shortName     "678" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0905AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bonsucesso - Irajá" ;
+        tmcommons:shortName     "905" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0315AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Central - Recreio dos Bandeirantes" ;
+        tmcommons:shortName     "315" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:20000401130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Madureira - Terminal Alvorada" ;
+        tmcommons:shortName     "40" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:rqw3   rdf:type                esautob:Linea ;
+        schema:name             "Santa Cruz - Terminal Alvorada" ;
+        tmcommons:shortName     "SE01" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4a86e8" ;
+                                  tmcommons:textColour  "FFFFFF"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0239AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Água Santa - Castelo" ;
+        tmcommons:shortName     "239" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0752AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Kennedy - Coelho Neto" ;
+        tmcommons:shortName     "SP752" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0201AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Alexandrina - Castelo" ;
+        tmcommons:shortName     "201" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0349AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rocha Miranda - Castelo" ;
+        tmcommons:shortName     "349" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0901AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bonsucesso - Bananal" ;
+        tmcommons:shortName     "901" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0311AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Engenheiro Leal - Candelária" ;
+        tmcommons:shortName     "311" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0483AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Penha - General Osório" ;
+        tmcommons:shortName     "483" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+exagency:20001  tmorg:operating  :20000141130 , :20000301140 , :20000201130 , :20000191130 , :20000401130 , :20000131130 , :20000171110 , :20000121130 , :luwv , :20000461130 , :SE03 , :20000421110 , :20000411130 , :20000501110 , :5myt , :20000101130 , :20000431130 , :20000181130 , :20000511110 , :20000271130 , :20000531130 , :20000111110 , :rqw3 , :20000221110 , :20000351110 , :SE04 , :20000381110 .
+
+:O0906AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim América - Caju" ;
+        tmcommons:shortName     "906" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0378AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Marechal Hermes - Castelo" ;
+        tmcommons:shortName     "378" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0550FLA0A  rdf:type           esautob:Linea ;
+        schema:name             "Tijuquinha - Gávea" ;
+        tmcommons:shortName     "SPB550" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0825AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Jesuítas" ;
+        tmcommons:shortName     "825" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:E2801AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Barra da Tijuca" ;
+        tmcommons:shortName     "2801" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0485AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Cidade Nova - Fundão" ;
+        tmcommons:shortName     "SP485" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:4e71   rdf:type                esautob:Linea ;
+        schema:name             "Cordovil - Tiradentes" ;
+        tmcommons:shortName     "SV335" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2383AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Sepetiba - Carioca" ;
+        tmcommons:shortName     "2383" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0455AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Méier - Copacabana" ;
+        tmcommons:shortName     "455" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0565AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Tanque - Gávea" ;
+        tmcommons:shortName     "565" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0202AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio Comprido - Castelo" ;
+        tmcommons:shortName     "202" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:SE04   rdf:type                esautob:Linea ;
+        schema:name             "Magarça - Terminal Alvorada" ;
+        tmcommons:shortName     "SE04" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4a86e8" ;
+                                  tmcommons:textColour  "FFFFFF"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0312AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Olaria - Candelária" ;
+        tmcommons:shortName     "312" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0484AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Olaria - General Osório" ;
+        tmcommons:shortName     "484" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0859AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Covanca - Largo do Tanque" ;
+        tmcommons:shortName     "859" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0821AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Corcundinha" ;
+        tmcommons:shortName     "821" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0379AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Catiri - Tiradentes" ;
+        tmcommons:shortName     "379" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0606AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Engenho de Dentro - Rodoviária" ;
+        tmcommons:shortName     "606" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0341AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Taquara - Candelária" ;
+        tmcommons:shortName     "341" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:20000411130  rdf:type          esautob:Linea ;
+        dct:description         "Expresso"@pt ;
+        schema:name             "Madureira - Terminal Recreio" ;
+        tmcommons:shortName     "41" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FF9900" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:E2802AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Cruz - Barra da Tijuca" ;
+        tmcommons:shortName     "2802" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0298AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Acari - Castelo" ;
+        tmcommons:shortName     "298" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0936AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Cidade Universitária" ;
+        tmcommons:shortName     "936" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0745AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Cascadura" ;
+        tmcommons:shortName     "745" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0343AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio das Pedras - Candelária" ;
+        tmcommons:shortName     "SP343" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:o1jo   rdf:type                esautob:Linea ;
+        schema:name             "Colônia - Taquara" ;
+        tmcommons:shortName     "SV831" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0855AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Bangu - Magarça" ;
+        tmcommons:shortName     "855" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0265AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Marechal Hermes - Castelo" ;
+        tmcommons:shortName     "265" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0712AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cascadura - Irajá" ;
+        tmcommons:shortName     "712" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0822AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Corcundinha" ;
+        tmcommons:shortName     "822" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0607AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Cascadura - Rio Comprido" ;
+        tmcommons:shortName     "607" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0932AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Gardênia Azul - Tanque" ;
+        tmcommons:shortName     "932" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0669AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Méier" ;
+        tmcommons:shortName     "669" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0779AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Madureira" ;
+        tmcommons:shortName     "779" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:E2380AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim Maravilha - Castelo" ;
+        tmcommons:shortName     "2380" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0416AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Saens Peña - Jardim Botânico" ;
+        tmcommons:shortName     "416" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0741AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Terminal Sulacap - Bangu" ;
+        tmcommons:shortName     "741" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0851AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Escola Amazonas" ;
+        tmcommons:shortName     "851" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:20000221110  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Terminal Alvorada - Jardim Oceânico" ;
+        tmcommons:shortName     "22" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:O0636AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Merck - Saens Peña" ;
+        tmcommons:shortName     "636" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0371AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Praça Seca - Tiradentes" ;
+        tmcommons:shortName     "371" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0746AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jabour - Cascadura" ;
+        tmcommons:shortName     "746" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:m9t5   rdf:type                esautob:Linea ;
+        dct:description         "LECD54"@pt ;
+        schema:name             "Urca - Copacabana" ;
+        tmcommons:shortName     "519" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0880AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rio das Pedras - Terminal Alvorada" ;
+        tmcommons:shortName     "880" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0603AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Usina - Saens Peña" ;
+        tmcommons:shortName     "603" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0665AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Saens Peña" ;
+        tmcommons:shortName     "665" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0775AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Jardim América - Madureira" ;
+        tmcommons:shortName     "775" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0885AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Cruz - Mato Alto" ;
+        tmcommons:shortName     "885" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:E2345AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Vila Valqueire - Castelo" ;
+        tmcommons:shortName     "2345" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0852AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Pedra de Guaratiba" ;
+        tmcommons:shortName     "852" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0050CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD50"@pt ;
+        schema:name             "Vila Isabel - Praça Saens Peña" ;
+        tmcommons:shortName     "605" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0309AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "São Conrado - Central" ;
+        tmcommons:shortName     "SP309" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0771AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Campo Grande - Coelho Neto" ;
+        tmcommons:shortName     "771" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0181AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Rodoviária - São Conrado" ;
+        tmcommons:shortName     "181" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0665AAVBA  rdf:type           esautob:Linea ;
+        schema:name             "Pavuna - Saens Peña" ;
+        tmcommons:shortName     "SVB665" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0601AAP0A  rdf:type           esautob:Linea ;
+        schema:name             "Santa Maria - Hospital Cardoso Fontes" ;
+        tmcommons:shortName     "SP601" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "0C6FA8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0483AAV0A  rdf:type           esautob:Linea ;
+        schema:name             "General Osório - Penha" ;
+        tmcommons:shortName     "SV483" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0007AAA0A  rdf:type           esautob:Linea ;
+        schema:name             "Silvestre - Central" ;
+        tmcommons:shortName     "007" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:20000271130  rdf:type          esautob:Linea ;
+        dct:description         "Parador"@pt ;
+        schema:name             "Mato Alto - Terminal Alvorada" ;
+        tmcommons:shortName     "25" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "4A86E8" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:20001 .
+
+:E2345AAVBA  rdf:type           esautob:Linea ;
+        schema:name             "Vila Valqueire - Castelo" ;
+        tmcommons:shortName     "SVB2345" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "030478" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22004 .
+
+:O0117AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Troncal 7"@pt ;
+        schema:name             "Central - Cosme Velho" ;
+        tmcommons:shortName     "117" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
+
+:O0051CAA0A  rdf:type           esautob:Linea ;
+        dct:description         "LECD51"@pt ;
+        schema:name             "Barra de Guaratiba - Terminal Recreio" ;
+        tmcommons:shortName     "SV899" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "E31919" ;
+                                  tmcommons:textColour  "ffffff"
+                                ] ;
+        tmjourney:runBy         exagency:22005 .
+
+:O0483AAPAA  rdf:type           esautob:Linea ;
+        schema:name             "Fiocruz - General Osório" ;
+        tmcommons:shortName     "SPA483" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "A2B71A" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22003 .
+
+:O0552AAA0A  rdf:type           esautob:Linea ;
+        dct:description         "Integrada 2"@pt ;
+        schema:name             "Rio Sul - Terminal Alvorada" ;
+        tmcommons:shortName     "552" ;
+        tmjourney:classifiedBy  kosallmodes:bus ;
+        tmjourney:presentedBy   [ tmcommons:colour      "FCC417" ;
+                                  tmcommons:textColour  "000000"
+                                ] ;
+        tmjourney:runBy         exagency:22002 .
